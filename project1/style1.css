@@ -1,0 +1,48 @@
+.navbar nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar nav ul li {
+  list-style: none;
+}
+.navbar nav ul li a {
+  text-decoration: none;
+}
+.navbar nav ul .ul2 {
+  display: flex;
+  gap: 20px;
+}
+.navbar nav ul .ul2 li {
+  list-style: none;
+}
+
+#section1 .container {
+  display: flex;
+  justify-content: center;
+}
+#section1 .container .text1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: flex-start;
+}
+#section1 .container .text1 h1 {
+  color: #183b56;
+  font-size: 40px;
+  text-align: left;
+  font-family: Averta PE, sans-serif;
+  font-weight: 100;
+}
+#section1 .container .text1 p {
+  text-align: left;
+  color: #577592;
+  font-size: 20px;
+  font-weight: 400;
+}
+#section1 .container .foto1 {
+  display: flex;
+}
+#section1 .container .foto1 img {
+  width: auto;
+}

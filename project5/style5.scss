@@ -1,0 +1,235 @@
+
+
+.main-home{
+    
+    display: flex;
+    height: 770px;
+    .main-left{
+        width: 30%;
+        height: 100%;
+        background: #DA4453;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        .main-left-container{
+            width: 70%;
+            height: 85%;
+            margin: 50px auto;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            .top-box{
+                width: 100%;
+                
+                h4{
+                    font-size: 20px;
+                    font-weight: 700;
+                    color:rgba(255, 255, 255, 0.852) ;
+                    margin-bottom: 20px;
+                }
+                .nothing{
+                    width: 80%;
+                    height: 10px;
+                    background: #eeb1ee;  /* fallback for old browsers */
+                    background: -webkit-linear-gradient(to right, #eeb1ee, #96dbe8);  /* Chrome 10-25, Safari 5.1-6 */
+                    background: linear-gradient(to right, #eeb1ee, #96dbe8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                }
+            }
+            .bottom-box{
+                position: relative;
+                 margin-bottom: 100px;
+                 h4{
+                    font-size: 20px;
+                    font-weight: 700;
+                    color:rgba(255, 255, 255, 0.852) ;
+                    margin-bottom: 20px;
+                 }
+                 p{
+                    color:rgba(255, 255, 255, 0.537);
+                 }
+                 button{
+                    position: absolute;
+                    top: 50%;
+                    right: 15%;
+                    padding: 10px 30px;
+                    border: 1px solid rgba(255, 255, 255, 0.537);
+                    background-color: transparent;
+                    color: rgba(255, 255, 255, 0.537);
+                    border-radius: 30px;
+                    margin-top: 50px;
+                    transition: 0.4s;
+                    &:hover{
+                        margin-top: 70px;
+                        transform: scale(1.1);
+                        cursor: pointer;
+
+                    }
+                 }
+            }
+    
+            .bg-text{
+                position: absolute;
+                top: 40%;
+                left:-72% ;
+                h1{
+                    font-size: 150px;
+                letter-spacing: 5px;
+                color: rgba(226, 223, 223, 0.222);
+                    transform: rotate(270deg);
+                }
+               
+            }
+            .bg-text2{
+                z-index: 90999;
+                position: absolute;
+              
+                font-size: 150px;
+                
+                color: rgba(226, 223, 223, 0.222);
+                top:6%;
+                left: -296%;
+                background: -webkit-linear-gradient(#eeb1ee, #ffffff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: 0.4s;
+                &:hover{
+                    cursor: pointer;
+                    transform: scale(0.9);
+                }
+            }
+        }
+        
+
+    }
+    .main-right{
+        position: relative;
+        .vase{
+        position: absolute;
+        left:78px;
+        
+        transform: rotate(10deg);
+        transition: 0.4s;
+        &:hover{
+            transform: scale(1.1);
+            transform: rotate(15deg);
+            cursor: pointer;
+            left: 100px;
+        }
+       }
+       
+        width: 70%;
+        height: 100%;
+        background: #eeb1ee;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #eeb1ee, #96dbe8);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #eeb1ee, #96dbe8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       .right-nav{
+        width: 10%;
+        height: 100%;
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .top-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 0px;
+            background: rgba(255, 255, 255, 0.242);
+            transition: 0.4s;
+            i{
+                color: white;
+                font-size: 30px;
+            }
+            &:hover{
+                background: rgba(0, 0, 0, 0.155);
+                cursor: pointer;
+                transform: scale(0.9) rotateY(180deg);
+            }
+        }
+       }
+       .bottom-info{
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 0, 0, 0.175);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 90%;
+        height: 180px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 60px;
+        h4{
+            padding-bottom: 20px;
+            color: white;
+
+        }
+        p{
+            color:rgba(255, 255, 255, 0.852) ;
+        }
+        .info-box{
+            width: 25%;
+            transition: 0.4s;
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
+       }
+       .man-info{
+        position: absolute;
+        top: 120px;
+        right: 60px;
+        width: 200px;
+        img{
+            
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            
+            border-radius: 50%;
+            margin-bottom: 10px;
+            transition: 0.4s;
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+        }
+        hr{
+            width: 100px;
+            padding: 1px;
+            background-color: white;
+            margin: 10px 0px;
+        }
+        h4{
+            color: white;
+        }
+        p{
+            color: rgba(255, 255, 255, 0.504);
+
+        }
+        
+       }
+       button{
+        position: absolute;
+        right:180px;
+        bottom: 370px;
+        padding: 10px 30px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        border-radius: 15px;
+       
+        transition: 0.4s;
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    }
+
+       
+    }
+}
