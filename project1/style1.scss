@@ -39,24 +39,28 @@
             align-self:center;
             align-items:flex-start;
             h1{
-                color: #183b56;
-           
-                font-size: 40px;
+                color: black;
+                font-size: 30px;
                 text-align: left;
-              
                 font-family: Averta PE,sans-serif;
                 font-weight: 100;
+                width: 65%;
              
             }
             p{
                 text-align: left;
-                color: #577592;
-        font-size: 20px;
-        font-weight: 400;
+                color: black;
+                font-size: 15px;
+                width: 71%;
+                padding: 0px 10px 25px 0px;
       
             }
             .button{
-
+                background-color: rgb(3, 216, 131);
+                color: #fff;
+                border: 1px solid rgba(255, 255, 255, 0.537);
+                padding: 10px 10px 10px 10px;
+                border-radius: 10%;
             }
          
         }

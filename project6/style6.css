@@ -29,6 +29,16 @@
 main #section6 {
   display: flex;
 }
+main #section6 .text6 .main-circle {
+  top: -98px;
+  left: calc(50% - 1180px);
+  width: 1000px;
+  height: 1000px;
+  background: #3080e3;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
 main #section6 .text6 h1 {
   font-size: 80px;
   padding: 20px 0px 0px 50px;
