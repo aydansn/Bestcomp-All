@@ -1,0 +1,92 @@
+body {
+  background-image: url(../img/pexels-codioful-\(formerly-gradienta\)-6985001.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  background-repeat: no-repeat;
+  height: 760px;
+}
+
+.all {
+  border-radius: 40px;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.all .circle {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 20%;
+  top: 15%;
+  background-color: aquamarine;
+  border-radius: 50%;
+  z-index: 20;
+}
+.all header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all header a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.all header .left a {
+  color: gray;
+  margin-right: 15px;
+  transition: 0.4s;
+}
+.all header .left a:hover {
+  color: greenyellow;
+  transition: 0.4s;
+}
+.all header .right a {
+  margin-left: 15px;
+}
+.all header .active {
+  color: greenyellow !important;
+}
+.all header .active:hover {
+  color: gray !important;
+  transition: 0.4s;
+}
+.all main {
+  position: relative;
+  z-index: 40444;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+}
+.all main p {
+  font-size: 24px;
+  line-height: 30px;
+  margin: 30px 0px;
+}
+.all main a {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px;
+}
+.all footer {
+  background-color: rgb(197, 196, 196);
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.all footer .box {
+  width: 30%;
+}
+.all footer .box h1 {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+body {
+  padding: 20px 40px;
+  background: linear-gradient(to left, #ffffff 50%, #cd4d23 50%);
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header img {
+  width: 80px;
+}
+body header nav {
+  display: flex;
+  align-items: center;
+}
+body header nav a {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(85, 85, 85);
+}
+body header nav .btn {
+  padding: 10px;
+  background-color: rgb(85, 85, 85);
+  color: white;
+  border-radius: 20px;
+}
+body main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main h2 {
+  color: #ffffff;
+  padding: 20px 0px;
+}
+body main img {
+  transition: 0.4s;
+}
+body main img:hover {
+  cursor: pointer;
+  transform: scale(0.2) rotate(360deg);
+  transition: 0.4s;
+}
+body main .box {
+  text-align: center;
+}
+body main button {
+  padding: 20px;
+  background-color: #cd4d23;
+  border: 1px solid white;
+  color: white;
+  border-radius: 40px;
+}
+body main .circle {
+  margin: auto;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #cd4d23;
+}/*# sourceMappingURL=style.css.map */
